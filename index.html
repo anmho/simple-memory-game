@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Sound and Memory Game</title>
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  
+  
+  <body>
+    <h1 class="title center"> Light and Sound Memory Game </h1>
+    <div class="center">
+      
+      <p id="intro" class="center">
+          Welcome to the game! Repeat the sequence by pressing buttons.
+      </p>
+      <div class="center" id="controls">
+        <button class="button" id="startBtn"> Start </button>
+        <button class="button hidden" id="stopBtn"> End </button>  
+        <label for="btnSlider" id="numBtns">Number of Buttons: 4</label>
+        <input name="btnSlider" id="btnSlider" value="1" type="range" min="4"  max="12" step="1">
+        <label for="roundSlider" id="numRounds">Number of Rounds: 8</label>
+        <input name="roundSlider" id="roundSlider" value="8" type="range" min="8"  max="20" step="1">
+      </div>
+      
+      <div class="center" id="messages">
+        <h3 id="winMessage" class="center invisible">
+          Congratulations! You Win!
+        </h3>
+        <h3 id="loseMessage" class="center hidden">
+          Sorry, You Lost
+        </h3>        
+      </div>
+      
+      
+    
+      <div id="gameButtonArea" class="container">
+        <button class="button" id="button1"> 1 </button>
+        <button class="button" id="button2"> 2 </button>
+        <button class="button" id="button3"> 3 </button>
+        <button class="button" id="button4"> 4 </button>
+        <button class="button hidden" id="button5"> 5 </button>
+        <button class="button hidden" id="button6"> 6 </button>
+        <button class="button hidden" id="button7"> 7 </button>
+        <button class="button hidden" id="button8"> 8 </button>
+        <button class="button hidden" id="button9"> 9 </button>
+        <button class="button hidden" id="button10"> 10 </button>
+        <button class="button hidden" id="button11"> 9 </button>
+        <button class="button hidden" id="button12"> 10 </button>
+      </div>
+        
+      
+    </div>
+    
+  </body>
+</html>
