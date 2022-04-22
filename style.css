@@ -199,13 +199,12 @@ h2 {
 
 
 .container {
-/*   display: grid | inline-grid; */
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
 
-
+/* Button Styles */
 #button1 {
   background: lightgreen;
 }
@@ -214,6 +213,7 @@ h2 {
   background: green;
   color: white;
 }
+
 
 #button2 {
   background: cyan;
@@ -224,6 +224,7 @@ h2 {
   color: white;
 }
 
+
 #button3 {
   background: lightpink;
 }
@@ -231,8 +232,8 @@ h2 {
 #button3:active, #button3.lit {
   background: hotpink;
   color: white;
-  
 }
+
 
 #button4 {
   background: lightyellow;
@@ -243,8 +244,6 @@ h2 {
 }
 
 
-
-
 #button5 {
   background: lightgray;
 }
@@ -252,6 +251,7 @@ h2 {
 #button5:active, #button5.lit {
   background: gray;
 }
+
 
 #button6 {
   background: lightcoral;
@@ -272,6 +272,7 @@ h2 {
   color: white;
 }
 
+
 #button8 {
   background: orchid;
 }
@@ -280,6 +281,7 @@ h2 {
   background: darkorchid;
 }
 
+
 #button9 {
   background: orange;
 }
@@ -287,6 +289,7 @@ h2 {
 #button9:active, #button9.lit {
   background: darkorange;
 }
+
 
 #button10 {
   background: rosybrown;
@@ -297,6 +300,7 @@ h2 {
   color: white;
 }
 
+
 #button11 {
   background: royalblue;
 }
@@ -305,6 +309,7 @@ h2 {
   background: navy;
   color: white;
 }
+
 
 #button12 {
   background: paleturquoise;
@@ -315,24 +320,23 @@ h2 {
   color: white;
 }
 
+#startBtn {
+  background-color: lightgreen;
+}
 
+#stopBtn {
+  background-color: tomato;
+}
 
+/* body {
+  background-color: #212124;
+  color: white;
+} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dark-mode {
+  background-color: #212124;
+  color: white;
+}
 
 
 .hidden {
@@ -347,4 +351,52 @@ h2 {
   width: 200px;
   height: 200px;
   margin: 2px;
+}
+
+#tries {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+#tries-counter {
+  display: flex;
+  justify-content: center;
+}
+
+
+.try {
+  border: 0.25rem solid darkgray;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  height: 4rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.try span {
+  text-align: center;
+  font-size: 4rem;
+  color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  height: 4rem;
+}
+
+
+.countdown {
+  display: flex;
+/*   justify-items: left; */
+  text-align: center;
+}
+
+.game-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }

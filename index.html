@@ -37,17 +37,26 @@
   <body>
     <h1 class="title center"> Light and Sound Memory Game </h1>
     <div class="center">
-      
       <p id="intro" class="center">
           Welcome to the game! Repeat the sequence by pressing buttons.
       </p>
+      
       <div class="center" id="controls">
         <button class="button" id="startBtn"> Start </button>
         <button class="button hidden" id="stopBtn"> End </button>  
         <label for="btnSlider" id="numBtns">Number of Buttons: 4</label>
         <input name="btnSlider" id="btnSlider" value="1" type="range" min="4"  max="12" step="1">
         <label for="roundSlider" id="numRounds">Number of Rounds: 8</label>
-        <input name="roundSlider" id="roundSlider" value="8" type="range" min="8"  max="20" step="1">
+        <input name="roundSlider" id="roundSlider" value="8" type="range" min="4"  max="20" step="1">
+        <div class="themes" id="themes">
+          <button id="dark-mode">
+            Dark Mode
+          </button>
+          <button id="light-mode">
+            Light Mode
+          </button>
+        </div>
+        
       </div>
       
       <div class="center" id="messages">
@@ -56,12 +65,39 @@
         </h3>
         <h3 id="loseMessage" class="center hidden">
           Sorry, You Lost
-        </h3>        
+        </h3>
+      </div>
+      
+      
+      <div class="game-info">
+        <div class="countdown">
+          <h1 id="countdown-timer">Time Left: 10</h1>
+        </div>
+      
+        <div class="tries-area hidden">
+          <div id="tries">
+            <h3>Tries</h3>
+            <div id="tries-counter">
+              <div class="try">
+                <span id="try-1">&times;</span>
+              </div>
+              <div class="try" >
+                <span id="try-2">&times;</span>
+              </div>  
+              <div class="try">
+                <span id="try-3">&times;</span>
+              </div>
+          </div>
+        </div>
+      </div>
+        
+        
       </div>
       
       
     
       <div id="gameButtonArea" class="container">
+        
         <button class="button" id="button1"> 1 </button>
         <button class="button" id="button2"> 2 </button>
         <button class="button" id="button3"> 3 </button>
