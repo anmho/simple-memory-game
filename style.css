@@ -181,7 +181,6 @@ h2 {
 - The button transition property above determines the speed of the translate (500ms)
 */
 .dipped:active {
-/*   transition-duration: 500ms; */
   transform: translateY(5px);
   transition-duration: 250ms;
 }
@@ -332,6 +331,10 @@ h2 {
   background-color: #212124;
   color: white;
 } */
+
+body, .title {
+  transition: background-color 500ms;
+}
 
 .dark-mode {
   background-color: #212124;

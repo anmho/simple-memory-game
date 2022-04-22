@@ -252,28 +252,27 @@ function toggleLightMode() {
 
 function init() {
   // Bind Controls
-  const controls = document.querySelector("#controls");
-  // Start the game
-  controls
-    .querySelector("#startBtn")
-    .addEventListener("click", (e) => whenStartButtonClicked(e.target));
-  // Stop the game
-  controls
-    .querySelector("#stopBtn")
-    .addEventListener("click", (e) => whenStopButtonClicked(e.target));
-  // Change number of buttons
-  controls
-    .querySelector("#btnSlider")
-    .addEventListener("input", (e) => whenButtonSliderChanged(e.target));
-  // Change Number of Rounds
-  controls
-    .querySelector("#roundSlider")
-    .addEventListener("input", (e) => whenRoundSliderChanged(e.target));
+  const startBtn = document.querySelector("#startBtn");
+  startBtn.addEventListener("click", (e) => whenStartButtonClicked(e.target));
+  // startBtn.classList.add("dipped");
+  
+  const stopBtn = document.querySelector("#stopBtn")
+  stopBtn.addEventListener("click", (e) => whenStopButtonClicked(e.target));
+  // stopBtn.classList.add("dipped");
+  
+  const btnSlider = document.querySelector("#btnSlider");
+  btnSlider.addEventListener("input", (e) => whenButtonSliderChanged(e.target));
+  
+  const roundSlider = document.querySelector("#roundSlider");
+  roundSlider.addEventListener("input", (e) => whenRoundSliderChanged(e.target));
   
   
   const darkModeBtn = document.querySelector("#dark-mode");
+  // darkModeBtn.classList.add("dipped");
   darkModeBtn.addEventListener("click", (e) => toggleDarkMode(e.target));
+  
   const lightModeBtn = document.querySelector("#light-mode");
+  // lightModeBtn.classList.add("dipped");
   lightModeBtn.addEventListener("click", (e) => toggleLightMode(e.target));
   
   
