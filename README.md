@@ -74,13 +74,14 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 - Combining CSS modules with React would further help break the game up into multiple files, making it easier to refactor and understand.
 
 2. A couple nice additional features I would add are
+   a) Responsive interface so users can play the game on their phone (more intuitive to play game like this on their phone than on their laptop/desktop)
    a) Option to play for infinite rounds
    - This feature would coincide with the leaderboard
-     b) Leaderboard
+   b) Leaderboard
    - This would let users compete to see who could get the greatest streak.
-     c) Colorblind mode
-     d) Account system to track player progression on leaderboard.
-     e) Unique sounds for each button
+   c) Colorblind mode
+   d) Account system to track player progression on leaderboard.
+   e) Unique sounds for each button
 
 ## Interview Recording URL Link
 
