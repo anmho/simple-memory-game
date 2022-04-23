@@ -4,7 +4,7 @@
 
 Submitted by: **Andrew Ho**
 
-Time spent: **5** hours spent in total
+Time spent: **12** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/courageous-charm-cornucopia?path=README.md%3A32%3A4)
 
