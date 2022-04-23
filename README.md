@@ -42,6 +42,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![x](https://github.com/anmho/simple-memory-game/blob/main/LosingGame.gif?raw=true)
 ![x](https://github.com/anmho/simple-memory-game/blob/main/Multiple%20Rounds%20and%20Buttons.gif?raw=true)https://github.com/anmho/simple-memory-game/blob/main/Multiple%20Rounds%20and%20Buttons.gif
 ![x](https://github.com/anmho/simple-memory-game/blob/main/LosingGame.gif?raw=true)
+![x](https://github.com/anmho/simple-memory-game/blob/main/lsmg_demo.gif?raw=true)
+![x](https://github.com/anmho/simple-memory-game/blob/main/lsmg_demo2.gif?raw=true)
 
 ## Reflection Questions
 
